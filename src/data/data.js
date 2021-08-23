@@ -274,6 +274,317 @@ const programs = [
       },
     ],
   },
+  {
+    id: 'enashawa-5d4n',
+    name: 'Enashawa 5 Days 4 Nights',
+    price: 'USD 360',
+    img: 'frailesilloImg',
+    shortdesc:
+      'Hike to lake Cococha and paddle around the Tres Chimbadas lake looking for birds and giant river otters. Walk to the mammal clay lick where we can see animals like peccaries, deers and monkeys. Visit a local farm and see local crops such as bananas, cassava, and many exotic fruits. Go on a night walk to listen to the sounds of the forest and try to spot some nocturnal animals like rodents, snakes and frogs. Visit the Native Community of Infierno and listen the Ese-eja stories narrated by their elder members.',
+    itinerary: [
+      {
+        day: 'Day 1',
+        actividades: [
+          {
+            actividad: 'arrival',
+            descripcion: 'Arrival and reception by Guide at the airport',
+          },
+          {
+            actividad: 'transfer',
+            descripcion:
+              '45 minutes Bus drive from the airport to the Native Community of Infierno and from there we will take a 25 minutes boat ride along the Tambopata River to the Enashawa lodge',
+          },
+          {
+            actividad: 'arrival lodge',
+            descripcion:
+              'Arrival to the lodge, reception and introductory walk to the Amazon Rainforest',
+          },
+          {
+            actividad: 'canopy tower',
+            descripcion: 'Canopy tower',
+          },
+          {
+            actividad: 'dinner',
+            descripcion: 'Dinner',
+          },
+          {
+            actividad: 'Caimaneo',
+            descripcion:
+              'Night excursion to look for Caimans along the Tambopata river',
+          },
+        ],
+      },
+      {
+        day: 'Day 2',
+        actividades: [
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'tres chimbadas',
+            descripcion:
+              'Visit to the Tres Chimbadas lake. After a half an hour boat ride and a 20 minutes hike we will arrive to the Tres Chimbadas lake. For around 2 hours we will be looking for birds, caimans and giant river otters while peacefully paddling on a catamaran and fishing piranhas',
+          },
+          {
+            actividad: 'lunch',
+            descripcion: 'Lunch',
+          },
+          {
+            actividad: 'Botanical Garden',
+            descripcion:
+              'Visit to the Botanical Garden where one of the chamans from the native community will explain us about the medicinal plants and their traditional use',
+          },
+          {
+            actividad: 'Dinner',
+            descripcion: 'Dinner',
+          },
+          {
+            actividad: 'nightwalk',
+            descripcion: 'Night walk',
+          },
+        ],
+      },
+      {
+        day: 'Day 3',
+        actividades: [
+          {
+            actividad: 'colpa',
+            descripcion:
+              'Visit to the Parrot Clay Lick a couple of minutes away from then lodge to spot different species of parrots such as the Blue-Headed Parrot, Dusky-Headed Parrakit and Chesnut Fronted Macaw',
+          },
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'macaw claylick',
+            descripcion: 'Visit to the Macaw Claylick',
+          },
+          {
+            actividad: 'lunch',
+            descripcion: 'Lunch',
+          },
+          {
+            actividad: 'colpa mamiferos',
+            descripcion:
+              '30 minutes walk to the Mammal Clay Lick where we could find peccaries and other mammals',
+          },
+          {
+            actividad: 'dinner',
+            descripcion: 'Dinner',
+          },
+        ],
+      },
+      {
+        day: 'Day 4',
+        actividades: [
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'infierno',
+            descripcion: 'Visit to the Infierno Native Community',
+          },
+          {
+            actividad: 'lunch',
+            descripcion: 'Lunch',
+          },
+          {
+            actividad: 'fishfarm',
+            descripcion: 'Visit to the fish farm',
+          },
+          {
+            actividad: 'dinner',
+            descripcion: 'Dinner',
+          },
+        ],
+      },
+      {
+        day: 'Day 5',
+        actividades: [
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'transfer to the airport',
+            descripcion: 'Transfer to the airport',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 'enashawa-6d5n',
+    name: 'Enashawa 6 Days 5 Nights',
+    price: 'USD 400',
+    img: 'lobosImg',
+    shortdesc:
+      "Hike to Lake Tres Chimbadas, enjoy the oxbow lake's diversity of birds. Fish for piranhas and visit a botanical garden. Paddle on a catamaran and look for birds at the Tres Chimbadas lake. At night go to see caimans in the Tambopata River. Walk to the mammal clay lick where we can see animals like peccaries, deers and monkeys. Visit a local farm and see local crops and many exotic fruits. Visit the fish farm and the Infierno Native Community and listen to some Ese-eje old stories. Go on a night walk to listen to the sounds of the forest.",
+    itinerary: [
+      {
+        day: 'Day 1',
+        actividades: [
+          {
+            actividad: 'arrival',
+            descripcion: 'Arrival and reception by Guide at the airport',
+          },
+          {
+            actividad: 'transfer',
+            descripcion:
+              '45 minutes Bus drive from the airport to the Native Community of Infierno and from there we will take a 25 minutes boat ride along the Tambopata River to the Enashawa lodge',
+          },
+          {
+            actividad: 'arrival lodge',
+            descripcion:
+              'Arrival to the lodge, reception and introductory walk to the Amazon Rainforest',
+          },
+          {
+            actividad: 'canopy tower',
+            descripcion: 'Canopy tower',
+          },
+          {
+            actividad: 'dinner',
+            descripcion: 'Dinner',
+          },
+          {
+            actividad: 'Caimaneo',
+            descripcion:
+              'Night excursion to look for Caimans along the Tambopata river',
+          },
+        ],
+      },
+      {
+        day: 'Day 2',
+        actividades: [
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'tres chimbadas',
+            descripcion:
+              'Visit to the Tres Chimbadas lake. After a half an hour boat ride and a 20 minutes hike we will arrive to the Tres Chimbadas lake. For around 2 hours we will be looking for birds, caimans and giant river otters while peacefully paddling on a catamaran and fishing piranhas',
+          },
+          {
+            actividad: 'lunch',
+            descripcion: 'Lunch',
+          },
+          {
+            actividad: 'Botanical Garden',
+            descripcion:
+              'Visit to the Botanical Garden where one of the chamans from the native community will explain us about the medicinal plants and their traditional use',
+          },
+          {
+            actividad: 'Dinner',
+            descripcion: 'Dinner',
+          },
+          {
+            actividad: 'nightwalk',
+            descripcion: 'Night walk',
+          },
+        ],
+      },
+      {
+        day: 'Day 3',
+        actividades: [
+          {
+            actividad: 'colpa',
+            descripcion:
+              'Visit to the Parrot Clay Lick a couple of minutes away from then lodge to spot different species of parrots such as the Blue-Headed Parrot, Dusky-Headed Parrakit and Chesnut Fronted Macaw',
+          },
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'macaw claylick',
+            descripcion: 'Visit to the Macaw Claylick',
+          },
+          {
+            actividad: 'lunch',
+            descripcion: 'Lunch',
+          },
+          {
+            actividad: 'colpa mamiferos',
+            descripcion:
+              '30 minutes walk to the Mammal Clay Lick where we could find peccaries and other mammals',
+          },
+          {
+            actividad: 'dinner',
+            descripcion: 'Dinner',
+          },
+        ],
+      },
+      {
+        day: 'Day 4',
+        actividades: [
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'infierno',
+            descripcion: 'Visit to the Infierno Native Community',
+          },
+          {
+            actividad: 'lunch',
+            descripcion: 'Lunch',
+          },
+          {
+            actividad: 'fishfarm',
+            descripcion: 'Visit to the fish farm',
+          },
+          {
+            actividad: 'dinner',
+            descripcion: 'Dinner',
+          },
+        ],
+      },
+      {
+        day: 'Day 5',
+        actividades: [
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'lago cococha',
+            descripcion:
+              '1 hour walk to lake Cocococha and 2 hours boat ride searching for birds, caimans and giant river otters',
+          },
+          {
+            actividad: 'lunch',
+            descripcion: 'Lunch',
+          },
+          {
+            actividad: 'farm',
+            descripcion:
+              'Visit to a local farm to learn more about the local crops and fruits. We will taste some exotic fruits like cocona, cocoa, starfruit, etc',
+          },
+          {
+            actividad: 'dinner',
+            descripcion: 'Dinner',
+          },
+        ],
+      },
+      {
+        day: 'Day 6',
+        actividades: [
+          {
+            actividad: 'breakfast',
+            descripcion: 'Breakfast',
+          },
+          {
+            actividad: 'transfer to the airport',
+            descripcion: 'Transfer to the airport',
+          },
+        ],
+      },
+    ],
+  },
 ]
 
 module.exports = programs
