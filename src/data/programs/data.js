@@ -1,4 +1,4 @@
-const programs = [
+const content = [
   {
     id: 'enashawa-3d2n',
     name: 'Enashawa 3 Days 2 Nights',
@@ -587,4 +587,4 @@ const programs = [
   },
 ]
 
-module.exports = programs
+module.exports = content

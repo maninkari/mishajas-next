@@ -11,7 +11,7 @@ const Programs = (props) => (
   </div>
 )
 
-function programshort(p) {
+const programshort = (p) => {
   return (
     <div>
       <h2>{p.name}</h2>

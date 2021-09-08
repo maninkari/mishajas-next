@@ -21,7 +21,7 @@ const Program = (program) => {
   )
 }
 
-function day(d) {
+const day = (d) => {
   return (
     <div>
       <h2>{d.day}</h2>
@@ -34,7 +34,7 @@ function day(d) {
   )
 }
 
-function actividad(a) {
+const actividad = (a) => {
   return (
     <div>
       <b>{a.actividad}</b>
@@ -44,15 +44,12 @@ function actividad(a) {
 }
 
 export async function getStaticPaths({ params, req, res }) {
-  console.log(params)
   const response = await fetch(`http://localhost:3000/api/program`)
   const programs = await response.json()
   console.log('programs')
   console.log(programs.data)
   const paths = programs.data.map((p) => ({ params: { id: p.id } }))
 
-  console.log('paths')
-  console.log({ paths })
   return { paths, fallback: 'blocking' }
 }
 
