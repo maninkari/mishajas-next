@@ -2,14 +2,30 @@ import React from 'react'
 
 const Programs = (props) => (
   <div>
-    <h1>Programs</h1>
     <div>
-      {props.data.map((p) => {
-        return programshort(p)
+      {props.data.sections.map((p) => {
+        return panel(p)
       })}
     </div>
   </div>
 )
+
+const panel = (p) => {
+  return (
+    <a>
+      <h1>{p.title}</h1>
+      <p>{p.asterisk}</p>
+      <p>{p.description}</p>
+      <div>
+        {p.programs
+          ? p.programs.map((prog) => {
+              return programshort(prog)
+            })
+          : ''}
+      </div>
+    </a>
+  )
+}
 
 const programshort = (p) => {
   return (

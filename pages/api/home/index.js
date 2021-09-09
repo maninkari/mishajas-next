@@ -1,5 +1,5 @@
 import nc from 'next-connect'
-import content from '../../../src/data/home/data'
+import content from '../../../src/data/home/sections'
 
 const handler = nc().get((req, res) => {
   res.json({

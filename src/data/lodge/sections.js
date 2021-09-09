@@ -18,7 +18,8 @@ const content = {
     },
     {
       title: 'Our Programs',
-      description: '',
+      description:
+        'Take a look at our 4D/3N and 3D/2N programs and extra activities. All programs include meals and transport from the airport to the lodge and back.',
     },
   ],
 }
