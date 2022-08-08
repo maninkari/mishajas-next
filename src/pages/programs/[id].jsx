@@ -21,23 +21,24 @@ const Program = (program) => {
   )
 }
 
-function day(d) {
+const day = (d) => {
   return (
-    <div>
+    <div key={d.day}>
       <h2>{d.day}</h2>
-      <p>
-        {d.actividades.map((a) => {
-          return actividad(a)
+      <div>
+        {d.actividades.map((a, i) => {
+          return actividad(a, i)
         })}
-      </p>
+      </div>
     </div>
   )
 }
 
-function actividad(a) {
+const actividad = (a, i) => {
+  console.log(i)
   return (
-    <div>
-      <b>{a.actividad}</b>
+    <div key={i}>
+      <p>{a.actividad}</p>
       <p>{a.descripcion}</p>
     </div>
   )
