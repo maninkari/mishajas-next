@@ -6,20 +6,10 @@ const Lodge = () => (
   </div>
 )
 
-export async function getStaticPaths({ params, req, res }) {
-  const response = await fetch(`http://localhost:3000/api/lodge`)
-  const programs = await response.json()
-  const paths = programs.data.map((p) => ({ params: { id: p.id } }))
-
-  console.log('paths')
-  console.log({ paths })
-  return { paths, fallback: 'blocking' }
-}
-
 export async function getStaticProps({ params }) {
-  const res = await fetch(`http://localhost:3000/api/lodge/${params.id}`)
-  const program = await res.json()
-  return { props: program.data }
+  const res = await fetch(`http://localhost:3000/api/lodge`)
+  const lodge = await res.json()
+  return { props: lodge }
 }
 
 export default Lodge

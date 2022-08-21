@@ -4,16 +4,16 @@ const Programs = (props) => (
   <div>
     <h1>Programs</h1>
     <div>
-      {props.data.map((p) => {
-        return programshort(p)
+      {props.data.map((p, i) => {
+        return programshort(p, i)
       })}
     </div>
   </div>
 )
 
-function programshort(p) {
+function programshort(p, i) {
   return (
-    <div>
+    <div key={i}>
       <h2>{p.name}</h2>
       <p>{p.id}</p>
       <p>{p.shortdesc}</p>
