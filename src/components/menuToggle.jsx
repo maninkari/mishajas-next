@@ -1,10 +1,12 @@
-import { Box } from "@chakra-ui/react"
-import {CloseIcon, MenuIcon} from 'react-icons'
+import { Box } from "@chakra-ui/layout"
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 
 const MenuToggle = ({ toggle, isOpen }) => {
   return (
     <Box display={{ base: "block", md: "none" }} onClick={toggle}>
-      {isOpen ? <CloseIcon /> : <MenuIcon />}
+      {isOpen ? <AiOutlineClose/> : <AiOutlineMenu/>}
     </Box>
   )
 }
+
+export default MenuToggle
