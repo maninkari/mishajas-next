@@ -35,7 +35,6 @@ const day = (d) => {
 }
 
 const actividad = (a, i) => {
-  console.log(i)
   return (
     <div key={i}>
       <p>{a.actividad}</p>

@@ -1,8 +1,13 @@
 import React from 'react'
 
-const Lodge = () => (
+const Lodge = (lodge) => (
   <div>
-    <h1>Lodge</h1>
+    <h1>{lodge.data.title}</h1>
+    <div>
+      {lodge.data.paragraphs.map((p, i) => {
+        return (<p key={i}>{p}</p>)
+      })}
+    </div>
   </div>
 )
 
