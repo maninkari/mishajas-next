@@ -48,8 +48,8 @@ export async function getStaticPaths({ params, req, res }) {
   console.log(params)
   const response = await fetch(`http://localhost:3000/api/program`)
   const programs = await response.json()
-  console.log('programs')
-  console.log(programs.data)
+  // console.log('programs')
+  // console.log(programs.data)
   const paths = programs.data.map((p) => ({ params: { id: p.id } }))
 
   console.log('paths')

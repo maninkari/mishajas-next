@@ -1,5 +1,5 @@
 import nc from 'next-connect'
-import programs from '../../../data/data'
+import programs from '../../../data/programs'
 
 const getProgram = (id) => programs.find((n) => n.id === id)
 
