@@ -1,10 +1,10 @@
 import React from 'react'
-import {Box, Flex} from '@chakra-ui/react'
+import {Box, Flex, Heading} from '@chakra-ui/react'
 import Link from 'next/link'
 
 const Programs = (props) => (
   <div>
-    <h1>Programs</h1>
+    <Heading size='md'>Programs</Heading>
     <div>
       {props.data.map((p, i) => {
         let url = `/programs/${p.id}`
@@ -21,19 +21,17 @@ const programshort = (p) =>  {
   return (
     <Flex minW="m"
     borderWidth="1px" 
-    rounded="lg" 
     overflow="hidden" 
-    p="6" 
-    borderColor="gray.200" 
-    borderRadius='1em' 
-    border="solid"
-    m="3"
+    // p="6" 
+    borderColor="gray.500"
+    // border="solid"
+    mt="3"
     justify={{ base: "center" }}
     direction={{ base: "column", md: "row" }}
     >
       <Box minW="320px" w="320px" h="220px" bg="gray" mr="1em">img</Box>
       <Box>
-        <h2>{p.name}</h2>
+        <Heading size='md' as="h3">{p.name}</Heading>
         <p>{p.id}</p>
         <p>{p.shortdesc}</p>
         <p>{p.price}</p>
