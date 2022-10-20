@@ -11,13 +11,13 @@ const MenuLinks = ({ isOpen }) => {
       <Stack
         spacing={8}
         align="center"
-        justify={['center', 'space-between', 'flex-end', 'flex-end']}
+        justify={['center', 'space-between', 'flex-start', 'flex-start']}
         direction={['column', 'row', 'row', 'row']}
         pt={[4, 4, 0, 0]}
         color={'white'}
       >
         <MenuItem to="/home">Home</MenuItem>
-        <MenuItem to="/lodge">Enashawa</MenuItem>
+        <MenuItem to="/enashawa-lodge">Enashawa</MenuItem>
         <MenuItem to="/programs">Programs</MenuItem>
         <MenuItem to="/natural-medicine">Natural Medicine</MenuItem>
         <MenuItem to="/about-us">About Us</MenuItem>

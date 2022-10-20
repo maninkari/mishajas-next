@@ -11,7 +11,7 @@ const MainLayout = ({ children }) => {
   return (
     <Box width="100vw" height="100vh">
       <Box
-        backgroundColor={'#FF5A55'}
+        backgroundColor={'#1470a6'}
         p="1em"
         backgroundImage="url('http://www.mishaja.org/imgs/plumas2.png')"
         backgroundRepeat="no-repeat"

@@ -3,9 +3,9 @@ import { Box, Center, Flex, Heading } from '@chakra-ui/react'
 
 const Lodge = (lodge) => (
   <div>
-    <Box bg="gray" minH="300px">
-      <Box float={'right'}>
-        <Center h="300px">
+    <Box bg="gray" minH={{ md: '300px', base: '150px' }} marginBottom="1em">
+      <Box float={'right'} marginRight="2em">
+        <Center h={{ md: '300px', base: '150px' }}>
           <Heading size="md">Enashawa</Heading>
         </Center>
       </Box>
@@ -13,7 +13,11 @@ const Lodge = (lodge) => (
     <Heading size="md">{lodge.data.title}</Heading>
     <div>
       {lodge.data.paragraphs.map((p, i) => {
-        return <p key={i}>{p}</p>
+        return (
+          <Box key={i} marginTop="1em">
+            <p>{p}</p>
+          </Box>
+        )
       })}
     </div>
   </div>
