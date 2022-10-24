@@ -1,14 +1,14 @@
 import React from 'react'
+import { Stack, Box, Center, Flex, Heading } from '@chakra-ui/react'
 
 const Medicine = (medicine) => (
   <div>
-    <h1>Natural Medicine</h1>
-    <h2>Hollistic Wellbeing and Tradition</h2>
-    <div>
+    <Box>
+      <Heading size="md">Hollistic Wellbeing and Tradition</Heading>
       {medicine.data.paragraphs.map((p, i) => {
         return <p key={i}>{p}</p>
       })}
-    </div>
+    </Box>
   </div>
 )
 

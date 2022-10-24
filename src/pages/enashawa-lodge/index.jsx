@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Center, Flex, Heading } from '@chakra-ui/react'
+import { Box, Center, Flex, Heading, Stack } from '@chakra-ui/react'
 
 const Lodge = (lodge) => (
   <div>
@@ -10,16 +10,25 @@ const Lodge = (lodge) => (
         </Center>
       </Box>
     </Box>
-    <Heading size="md">{lodge.data.title}</Heading>
-    <div>
-      {lodge.data.paragraphs.map((p, i) => {
-        return (
-          <Box key={i} marginTop="1em">
-            <p>{p}</p>
-          </Box>
-        )
-      })}
-    </div>
+    <Stack direction={{ base: 'column', md: 'row' }}>
+      <Box w={{ md: '60%' }}>
+        <Heading size="md">{lodge.data.title}</Heading>
+        <div>
+          {lodge.data.paragraphs.map((p, i) => {
+            return (
+              <Box key={i} marginTop="1em">
+                <p>{p}</p>
+              </Box>
+            )
+          })}
+        </div>
+      </Box>
+      <Box w={{ md: '40%' }}>
+        <Heading size="md">The Surroundings</Heading>
+        <Heading size="md">Our Rooms</Heading>
+        <Heading size="md">Our Programs</Heading>
+      </Box>
+    </Stack>
   </div>
 )
 
