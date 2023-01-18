@@ -3,8 +3,16 @@ import { Stack, Box, Center, Flex, Heading } from '@chakra-ui/react'
 
 const Home = () => (
   <div>
-    <Box bg="gray" minH={{ md: '300px', base: '150px' }} marginBottom="1em">
-      <Box float={'right'} marginRight="2em">
+    <Box
+      bg="gray"
+      minH={{ md: '300px', base: '150px' }}
+      marginBottom="1em"
+      bgImage="url(http://www.mishaja.org/imgs/intro1.jpg)"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+      bgSize="cover"
+    >
+      <Box float={'right'} marginRight="2em" color="white">
         <Center h={{ md: '300px', base: '150px' }}>
           <Heading size="md">Mishajas.org</Heading>
         </Center>

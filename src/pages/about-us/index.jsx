@@ -24,8 +24,16 @@ const mishajas = [
 
 const AbouttUs = () => (
   <div>
-    <Box bg="gray" minH={{ md: '300px', base: '150px' }} marginBottom="1em">
-      <Box float={'right'} marginRight="2em">
+    <Box
+      bg="gray"
+      minH={{ md: '300px', base: '150px' }}
+      marginBottom="1em"
+      bgImage="url(http://www.mishaja.org/imgs/mishajas.jpg)"
+      bgPosition="center"
+      bgRepeat="no-repeat"
+      bgSize="cover"
+    >
+      <Box float={'right'} marginRight="2em" color="white">
         <Center h={{ md: '300px', base: '150px' }}>
           {/* <Heading size="md">The Mishaja</Heading> */}
           <Box w="350px" display={{ base: 'none', md: 'block' }} color="white">
